@@ -13,11 +13,6 @@ const phraseLove = [
 ]
 
 for (let i =0; i < phraseLove.length; i++ ) {
-
+ console.log(phraseLove(i))
 }
 
-const randomLove = (phrase) => {
-  if (phrase <= 10) {
-    return console.log(Math.floor(Math.random()*9))
-  }
-} 
