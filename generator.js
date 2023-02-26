@@ -1,4 +1,3 @@
-
 const phraseLove = [
    'I love you',
    'You mean everything to me',
@@ -13,5 +12,5 @@ const phraseLove = [
 ]
 
 for (let i =0; i < phraseLove.length; i++ ) {
- console.log(phraseLove(i))
+ console.log(phraseLove[i])
 }
