@@ -15,4 +15,4 @@ const ramdonPhrase = Math.floor(Math.random()* phraseLove.length)
 
 const ramdonPhraseLove = phraseLove[ramdonPhrase] 
 
-console.log(ramdonPhraseLove)
+console.log(ramdonPhraseLove) 
