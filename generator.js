@@ -15,4 +15,3 @@ const phraseLove = [
 for (let i =0; i < phraseLove.length; i++ ) {
  console.log(phraseLove(i))
 }
-
