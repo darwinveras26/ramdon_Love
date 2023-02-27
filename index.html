@@ -12,6 +12,12 @@
     <section>
         <p>just press the button to give your love phrase today</p>
         <button onclick="funLove">LOVE</button>
+        <script src="generator.js">
+            function funLove() {
+            var output =  ramdonPhraseLove
+            document.getElementById("output-div").innerHTML = output
+}
+        </script>
         <div id="output-div">"  "</div>
     </section>
 </body>
